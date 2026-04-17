@@ -1,8 +1,9 @@
+cat << 'EOF' > README.md
 # ⚡ ETHERPULSE | ELITE SENTINEL
 > **AI-Powered Blockchain Cyber-Forensics & Intelligence Platform**
 > *v5.0.0 - Production Build // Zero-Trust Architecture*
 
-[**View Live App**](https://etherpulsepro-2l6ntw6a5ajgainlzk2fcg.streamlit.app/)
+[**🌐 DEPLOYED HUD: LIVE ACCESS**](https://etherpulse-sentinel.onrender.com)
 
 ---
 
@@ -29,19 +30,18 @@ Integrated via the **Twilio API**, this module pushes encrypted forensic alerts 
 | Layer | Technology |
 | :--- | :--- |
 | **Logic Core** | Python 3.12 |
+| **Cloud Hosting** | Render (Web Service) |
 | **UI/UX HUD** | Streamlit (Custom CSS Digital Grit Architecture) |
 | **Analytics** | Pandas & Heuristic Pattern Matching |
 | **Visuals** | Plotly (Dynamic Radar Shaders) |
-| **Communications** | Twilio API (WhatsApp Business Encryption) |
+| **Alerts** | Twilio API (WhatsApp Business Gateway) |
 
 ---
 
-## 🚀 SYSTEM EXECUTION
-To initialize the Sentinel HUD locally, execute the following protocols in your terminal:
+## 🚀 SYSTEM INITIALIZATION
+To initialize the Sentinel HUD locally for development or audit:
 
-```bash
-git clone [https://github.com/17-Aakash-03/EtherPulse_Pro.git](https://github.com/17-Aakash-03/EtherPulse_Pro.git)
-cd EtherPulse_Pro
-pip install streamlit pandas plotly twilio
-python -m streamlit run app.py
-
+1. **Clone the Fabric:**
+   ```bash
+   git clone [https://github.com/17-Aakash-03/EtherPulse-Pro.git](https://github.com/17-Aakash-03/EtherPulse-Pro.git)
+   cd EtherPulse-Pro
