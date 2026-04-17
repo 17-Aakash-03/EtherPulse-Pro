@@ -1,4 +1,3 @@
-```bash
 cat << 'EOF' > README.md
 # ⚡ ETHERPULSE | ELITE SENTINEL
 > **AI-Powered Blockchain Cyber-Forensics & Intelligence Platform**
@@ -46,29 +45,23 @@ To initialize the Sentinel HUD locally for development or audit:
    ```bash
    git clone [https://github.com/17-Aakash-03/EtherPulse-Pro.git](https://github.com/17-Aakash-03/EtherPulse-Pro.git)
    cd EtherPulse-Pro
-   ```
-
 2. **Inject Dependencies:**
-   ```bash
    pip install -r requirements.txt
-   ```
-
 3. **Ignite the Engine:**
-   ```bash
    streamlit run app.py
-   ```
 
----
+⚙️ CLOUD CONFIGURATION (RENDER)
+To maintain the integrity of the live HUD, the following Environment Variables are required in the Render Dashboard:
 
-## ⚙️ CLOUD CONFIGURATION (RENDER)
-To maintain the integrity of the live HUD, the following **Environment Variables** are required in the Render Dashboard:
-* `TWILIO_ACCOUNT_SID`
-* `TWILIO_AUTH_TOKEN`
-* `TWILIO_PHONE_NUMBER`
-* `TARGET_PHONE_NUMBER`
+TWILIO_ACCOUNT_SID
+
+TWILIO_AUTH_TOKEN
+
+TWILIO_PHONE_NUMBER
+
+TARGET_PHONE_NUMBER
 EOF
 
 git add README.md
 git commit -m "docs: finalize sentinel hud documentation and render links"
 git push origin main
-```
